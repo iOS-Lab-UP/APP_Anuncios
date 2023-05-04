@@ -15,6 +15,7 @@
 		AF5E26E02A01CC6000EE3DB1 /* CodingClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E26DF2A01CC6000EE3DB1 /* CodingClubUITests.swift */; };
 		AF5E26E22A01CC6000EE3DB1 /* CodingClubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E26E12A01CC6000EE3DB1 /* CodingClubUITestsLaunchTests.swift */; };
 		AF5E26EF2A01CCB700EE3DB1 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E26EE2A01CCB700EE3DB1 /* Menu.swift */; };
+		AF5E26F12A031C4F00EE3DB1 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E26F02A031C4F00EE3DB1 /* View2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		AF5E26DF2A01CC6000EE3DB1 /* CodingClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingClubUITests.swift; sourceTree = "<group>"; };
 		AF5E26E12A01CC6000EE3DB1 /* CodingClubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingClubUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AF5E26EE2A01CCB700EE3DB1 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		AF5E26F02A031C4F00EE3DB1 /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				AF5E26C42A01CC5E00EE3DB1 /* CodingClubApp.swift */,
 				AF5E26C62A01CC5E00EE3DB1 /* ContentView.swift */,
 				AF5E26EE2A01CCB700EE3DB1 /* Menu.swift */,
+				AF5E26F02A031C4F00EE3DB1 /* View2.swift */,
 				AF5E26C82A01CC6000EE3DB1 /* Assets.xcassets */,
 				AF5E26CA2A01CC6000EE3DB1 /* Preview Content */,
 			);
@@ -263,6 +266,7 @@
 				AF5E26EF2A01CCB700EE3DB1 /* Menu.swift in Sources */,
 				AF5E26C72A01CC5E00EE3DB1 /* ContentView.swift in Sources */,
 				AF5E26C52A01CC5E00EE3DB1 /* CodingClubApp.swift in Sources */,
+				AF5E26F12A031C4F00EE3DB1 /* View2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
