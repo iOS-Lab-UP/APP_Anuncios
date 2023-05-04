@@ -14,7 +14,7 @@ struct Menu: View {
         
         ZStack
         {
-            Color.orange
+            Color(.orange)
                 .ignoresSafeArea()
             VStack {
                 Spacer()
@@ -25,69 +25,83 @@ struct Menu: View {
                             .cornerRadius(45)
                     VStack {
                         HStack {
-                            Text("  COMUNIDAD")
+                            Text("        COMUNIDAD")
                                 .font(.largeTitle)
                                 .fontWeight(.bold)
                                 Spacer()
                         }
                         HStack {
-                            Text("  UP")
+                            Text("        UP")
                                 .font(.largeTitle)
                             .fontWeight(.bold)
                             Spacer()
+                            
                         }
+                        Text("")
                         HStack {
-                            Text("  Email")
+                            Text("             Email")
+                            
                             Spacer()
                         }
                             
                         VStack {
-                            ZStack {
-                                Rectangle()
-                                    .fill(Color.gray)
-                                    .frame(width: 300, height: 50)
-                                    .cornerRadius(45)
-                                HStack {
-                                    TextField(
-                                            "User name (email address)",
-                                            text: $username
-                                    ).padding(20)
-                                }
+                            Text(" ")
+                            HStack {
+                                Spacer()
+                                TextField(
+                                    "(Email Address)",
+                                    text: $username
+                                ).padding(20)
+                                    .frame(width: 350.0, height: 48.0)
+                                    .background(Color("Gris_Clarito"))
+                                    .clipShape(Capsule(style: .continuous))
+                                
+                                Spacer()
                             }
+                            Text(" ")
+                            Text(" ")
                             Text("Selecciona")
-                        
-                                HStack
-                                {
-                                    ZStack {
-                                        Rectangle()
-                                            .fill(Color.gray)
-                                            .frame(width: 100, height: 50)
-                                            .cornerRadius(45)
-                                        TextField(
-                                                "Student",
-                                                text: $username
-                                        ).padding(20)
-                                    }
-                                    ZStack {
-                                        Rectangle()
-                                            .fill(Color.gray)
-                                            .frame(width: 100, height: 50)
-                                            .cornerRadius(45)
-                                        TextField(
-                                                "Docente",
-                                                text: $username
-                                        ).padding(20)
-                                    }
-                                }
+                            
+                            HStack
+                            {
+                                Spacer()
+                                TextField(
+                                    "Student",
+                                    text: $username
+                                ).padding(20)
+                                    .frame(width: 170.0, height: 48.0)
+                                    .background(Color("Gris_Clarito"))
+                                    .clipShape(Capsule(style: .continuous))
+                                
+                                TextField(
+                                    "Docente",
+                                    text: $username
+                                ).padding(20)
+                                    .frame(width: 170.0, height: 48.0)
+                                    .background(Color("Gris_Clarito"))
+                                    .clipShape(Capsule(style: .continuous))
+                                Spacer()
+                            }
+                            
                             Rectangle()
                                 .fill(Color.white)
-                                .frame(width: 100, height: 150)
-                                .cornerRadius(45)
+                                .frame(width: 100, height: 90)
                             
-                            Text("Next")
+                            
+                            Button("Next") {
+                                
+                            }
+                                .foregroundColor(.white)
+                                .frame(width: 170.0, height: 48.0)
+                                .background(Color(.orange))
+                                .clipShape(Capsule(style: .continuous))
+                                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                                .font(/*@START_MENU_TOKEN@*/.title3/*@END_MENU_TOKEN@*/)
+                                
+                                
+                            
                         }
-                        
-                        
+  
                     }
 
                 }
