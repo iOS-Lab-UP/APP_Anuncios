@@ -14,6 +14,7 @@ struct Menu: View {
         
         ZStack
         {
+            //Image()
             Color(.orange)
                 .ignoresSafeArea()
             VStack {
@@ -97,20 +98,15 @@ struct Menu: View {
                                 .clipShape(Capsule(style: .continuous))
                                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                                 .font(/*@START_MENU_TOKEN@*/.title3/*@END_MENU_TOKEN@*/)
-                                
-                                
-                            
                         }
-  
                     }
-
                 }
-                
             }.padding(.top, 20)
                 .ignoresSafeArea()
         }
     }
     
+  
     struct Menu_Previews: PreviewProvider {
         static var previews: some View {
             Menu()
