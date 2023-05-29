@@ -1,0 +1,16 @@
+Python 
+Flask 
+Hacer un api Luis nos va ayudar a conectarlo
+
+Diseñar el flujo de como funciona todo eso
+Clases
+
+Clase usuario
+id_registro
+Id alumni
+Email
+Password
+
+Clase Perfil
+(Va a heredar)
+Id: int
