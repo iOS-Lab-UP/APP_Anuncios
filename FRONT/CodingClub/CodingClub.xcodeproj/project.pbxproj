@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF4C1F5A2A36EB6000F7B34B /* Nuevo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C1F592A36EB6000F7B34B /* Nuevo.swift */; };
+		AF4C1F5F2A36EB8F00F7B34B /* Contactos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C1F5B2A36EB8E00F7B34B /* Contactos.swift */; };
+		AF4C1F602A36EB8F00F7B34B /* Perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C1F5C2A36EB8F00F7B34B /* Perfil.swift */; };
+		AF4C1F612A36EB8F00F7B34B /* Inscrito.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C1F5D2A36EB8F00F7B34B /* Inscrito.swift */; };
+		AF4C1F622A36EB8F00F7B34B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C1F5E2A36EB8F00F7B34B /* Home.swift */; };
 		AF5E26C52A01CC5E00EE3DB1 /* CodingClubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E26C42A01CC5E00EE3DB1 /* CodingClubApp.swift */; };
 		AF5E26C72A01CC5E00EE3DB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E26C62A01CC5E00EE3DB1 /* ContentView.swift */; };
 		AF5E26C92A01CC6000EE3DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5E26C82A01CC6000EE3DB1 /* Assets.xcassets */; };
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF4C1F592A36EB6000F7B34B /* Nuevo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nuevo.swift; sourceTree = "<group>"; };
+		AF4C1F5B2A36EB8E00F7B34B /* Contactos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contactos.swift; sourceTree = "<group>"; };
+		AF4C1F5C2A36EB8F00F7B34B /* Perfil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Perfil.swift; sourceTree = "<group>"; };
+		AF4C1F5D2A36EB8F00F7B34B /* Inscrito.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inscrito.swift; sourceTree = "<group>"; };
+		AF4C1F5E2A36EB8F00F7B34B /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		AF5E26C12A01CC5E00EE3DB1 /* CodingClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5E26C42A01CC5E00EE3DB1 /* CodingClubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingClubApp.swift; sourceTree = "<group>"; };
 		AF5E26C62A01CC5E00EE3DB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +111,11 @@
 				AF5E26C42A01CC5E00EE3DB1 /* CodingClubApp.swift */,
 				AF5E26C62A01CC5E00EE3DB1 /* ContentView.swift */,
 				AF5E26EE2A01CCB700EE3DB1 /* Menu.swift */,
+				AF4C1F5B2A36EB8E00F7B34B /* Contactos.swift */,
+				AF4C1F5E2A36EB8F00F7B34B /* Home.swift */,
+				AF4C1F5D2A36EB8F00F7B34B /* Inscrito.swift */,
+				AF4C1F5C2A36EB8F00F7B34B /* Perfil.swift */,
+				AF4C1F592A36EB6000F7B34B /* Nuevo.swift */,
 				AF5E26F02A031C4F00EE3DB1 /* View2.swift */,
 				AF5E26C82A01CC6000EE3DB1 /* Assets.xcassets */,
 				AF5E26CA2A01CC6000EE3DB1 /* Preview Content */,
@@ -263,8 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4C1F5F2A36EB8F00F7B34B /* Contactos.swift in Sources */,
+				AF4C1F602A36EB8F00F7B34B /* Perfil.swift in Sources */,
 				AF5E26EF2A01CCB700EE3DB1 /* Menu.swift in Sources */,
 				AF5E26C72A01CC5E00EE3DB1 /* ContentView.swift in Sources */,
+				AF4C1F622A36EB8F00F7B34B /* Home.swift in Sources */,
+				AF4C1F612A36EB8F00F7B34B /* Inscrito.swift in Sources */,
+				AF4C1F5A2A36EB6000F7B34B /* Nuevo.swift in Sources */,
 				AF5E26C52A01CC5E00EE3DB1 /* CodingClubApp.swift in Sources */,
 				AF5E26F12A031C4F00EE3DB1 /* View2.swift in Sources */,
 			);
